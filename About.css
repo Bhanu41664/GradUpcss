@@ -1,0 +1,232 @@
+.abouthome{
+    margin-top: 50px;
+}
+.abouthome img{
+    width: 100%;
+    height: 400px;
+}
+.Aboutcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -300px;
+}
+.Aboutcontainer h1{
+    color: white;
+    font-size: 48px;
+}
+.aboutbutton{
+    display: flex;
+    width: 200px;
+    background: rgba(0,0,0,0.08);
+
+    justify-content: space-around;
+    color: white;
+    margin-top: 20px;
+}
+.Aopacity{
+    opacity: calc(0.8);
+}
+.ablock1{
+    max-width:1200px;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.ablock1content{
+    width: 50%;
+    padding-right: 40px;
+}
+ h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--heading-text-color);
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+}
+.ablock1content p{
+    line-height: 1.6;
+}
+.ablock1image{
+    padding-left: 40px;
+}
+.ablock2{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+.ablock2image{
+    padding-right: 40px;
+}
+.ablock2content{
+    padding-left:40px;
+}
+.p1{
+    font-size: 18px;
+    color: rgb(39, 37, 37);
+    line-height: 1.6;
+}
+.ablock2content2{
+    padding-right: 40px;
+}
+.ablock2image2{
+    padding-left: 40px;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+}
+.ablock3container{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ablock3container .p4{
+    color: rgb(52, 51, 51);
+    font-size: 20px;
+    line-height: 1.6;
+}
+.aboutbox img{
+    width: 100px;
+}
+.ablock4{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1200px;
+    margin: auto;
+    background-color:rgb(209, 204, 204);
+    align-items: center;
+    gap: 1px;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.aboutbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: white;
+   width: 400px;
+    height: 350px;
+    transition: 200ms;
+   position: relative;
+}
+
+.aboutbox::after{
+    content: "";
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f56616;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    transition: 400ms;
+    width: 100%;
+}
+.aboutbox:hover::after{
+    height: 100%;
+}
+.aboutbox1:hover::after{
+    content: "Strategy & research";
+}
+.aboutbox2:hover::after{
+    content: "Report & Analytics";
+}
+.aboutbox3:hover::after{
+    content: "Management and marketing";
+}
+.aboutbox4:hover::after{
+    content: "InfoGraphics Content";
+}
+.aboutbox5:hover::after{
+    content: "Media Promotion";
+}
+.aboutbox6:hover::after{
+    content: "Quick Support";
+}
+
+.arow1{
+    display: flex;
+    gap: 1px;
+}
+.arow2{
+    display: flex;
+    gap: 1px;
+}
+.ablock5{
+    background-image: url('https://techeor.in/images/default-color/bg-2.jpg');
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+.ablocksub5{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    color: white q;
+}
+.ablock5content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutbutton2{
+    background: #ffffff;
+    color: #485974;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.aboutblock6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.companylogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px 0px;
+}
+.aboutlogo1{
+    border: 1px solid rgb(182, 180, 180);
+    padding: 10px 40px;
+   
+}
+.line{
+    position: relative;
+    height: 7px;
+    width: 60px;
+    top: 0px;
+    background:linear-gradient(to bottom, #f0ac0e 0%, #f56616 100%) ;
+}
